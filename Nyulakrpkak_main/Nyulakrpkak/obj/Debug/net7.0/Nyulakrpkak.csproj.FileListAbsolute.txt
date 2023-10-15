@@ -1,0 +1,14 @@
+D:\proj\Nyulakrpkak\Nyulakrpkak\bin\Debug\net7.0\Nyulakrpkak.exe
+D:\proj\Nyulakrpkak\Nyulakrpkak\bin\Debug\net7.0\Nyulakrpkak.deps.json
+D:\proj\Nyulakrpkak\Nyulakrpkak\bin\Debug\net7.0\Nyulakrpkak.runtimeconfig.json
+D:\proj\Nyulakrpkak\Nyulakrpkak\bin\Debug\net7.0\Nyulakrpkak.dll
+D:\proj\Nyulakrpkak\Nyulakrpkak\bin\Debug\net7.0\Nyulakrpkak.pdb
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.GeneratedMSBuildEditorConfig.editorconfig
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.AssemblyInfoInputs.cache
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.AssemblyInfo.cs
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.csproj.CoreCompileInputs.cache
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.dll
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\refint\Nyulakrpkak.dll
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.pdb
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\Nyulakrpkak.genruntimeconfig.cache
+D:\proj\Nyulakrpkak\Nyulakrpkak\obj\Debug\net7.0\ref\Nyulakrpkak.dll
