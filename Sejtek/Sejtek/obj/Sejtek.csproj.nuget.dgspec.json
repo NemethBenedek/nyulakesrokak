@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proj\\Sejtek\\Sejtek\\Sejtek.csproj": {}
+    "F:\\beadandok\\2023-alkalmazas\\Projekt_1_2023\\Sejtek\\Sejtek\\Sejtek.csproj": {}
   },
   "projects": {
-    "D:\\proj\\Sejtek\\Sejtek\\Sejtek.csproj": {
+    "F:\\beadandok\\2023-alkalmazas\\Projekt_1_2023\\Sejtek\\Sejtek\\Sejtek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proj\\Sejtek\\Sejtek\\Sejtek.csproj",
+        "projectUniqueName": "F:\\beadandok\\2023-alkalmazas\\Projekt_1_2023\\Sejtek\\Sejtek\\Sejtek.csproj",
         "projectName": "Sejtek",
-        "projectPath": "D:\\proj\\Sejtek\\Sejtek\\Sejtek.csproj",
-        "packagesPath": "C:\\Users\\Beni\\.nuget\\packages\\",
-        "outputPath": "D:\\proj\\Sejtek\\Sejtek\\obj\\",
+        "projectPath": "F:\\beadandok\\2023-alkalmazas\\Projekt_1_2023\\Sejtek\\Sejtek\\Sejtek.csproj",
+        "packagesPath": "C:\\Users\\Zdenko\\.nuget\\packages\\",
+        "outputPath": "F:\\beadandok\\2023-alkalmazas\\Projekt_1_2023\\Sejtek\\Sejtek\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Beni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Zdenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
