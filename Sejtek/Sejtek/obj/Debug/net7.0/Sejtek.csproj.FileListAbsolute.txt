@@ -1,0 +1,14 @@
+D:\proj\Sejtek\Sejtek\bin\Debug\net7.0\Sejtek.exe
+D:\proj\Sejtek\Sejtek\bin\Debug\net7.0\Sejtek.deps.json
+D:\proj\Sejtek\Sejtek\bin\Debug\net7.0\Sejtek.runtimeconfig.json
+D:\proj\Sejtek\Sejtek\bin\Debug\net7.0\Sejtek.dll
+D:\proj\Sejtek\Sejtek\bin\Debug\net7.0\Sejtek.pdb
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.GeneratedMSBuildEditorConfig.editorconfig
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.AssemblyInfoInputs.cache
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.AssemblyInfo.cs
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.csproj.CoreCompileInputs.cache
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.dll
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\refint\Sejtek.dll
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.pdb
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\Sejtek.genruntimeconfig.cache
+D:\proj\Sejtek\Sejtek\obj\Debug\net7.0\ref\Sejtek.dll
