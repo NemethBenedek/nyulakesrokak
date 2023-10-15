@@ -30,20 +30,21 @@ class GameOfLife
         }
         bool[,] grid = new bool[rows, cols];
         bool[,] newGrid = new bool[rows, cols];
-        bool[,] prevGrid = new bool[rows, cols];
+        bool[,] prevGrid = new bool[rows, cols]; // Előző generációt tároló rács
 
+        // Kezdeti állapot beállítása (például egy véletlenszerű kezdeti minta)
         InitializeGrid(grid, rows, cols);
 
         int generation = 0;
-        int generationsWithoutChange = 0;
+        int generationsWithoutChange = 0; // Változás nélküli generációk számlálója
 
-        while (generationsWithoutChange < 1)
+        while (generationsWithoutChange < 1) // Példa: a szimuláció akkor áll le, ha 10 generáció óta nem történt változás
         {
             Console.Clear();
             DisplayGrid(grid, rows, cols, prevGrid);
             UpdateGrid(grid, newGrid, prevGrid, rows, cols, generation);
 
-            if (GenerationsEqual(grid, newGrid))
+            if (GenerationsEqual(grid, newGrid)) // Ha nincs változás
             {
                 generationsWithoutChange++;
             }
@@ -52,11 +53,12 @@ class GameOfLife
                 generationsWithoutChange = 0;
             }
 
-            (grid, newGrid) = (newGrid, grid);
+            (grid, newGrid) = (newGrid, grid); // Cseréljük a két rácsot
             generation++;
-            System.Threading.Thread.Sleep(550);
+            System.Threading.Thread.Sleep(550); // Várunk egy kicsit
         }
 
+        // Ha már nem történik változás, akkor jelenjen meg a Night függvény
         Night();
     }
 
@@ -67,7 +69,7 @@ class GameOfLife
         {
             for (int col = 0; col < cols; col++)
             {
-                grid[row, col] = rand.Next(2) == 0;
+                grid[row, col] = rand.Next(2) == 0; // Véletlenszerűen élő vagy halott sejt
             }
         }
     }
@@ -82,7 +84,7 @@ class GameOfLife
 
                 if (grid[row, col] == prevGrid[row, col])
                 {
-                    backgroundColor = ConsoleColor.DarkYellow;
+                    backgroundColor = ConsoleColor.DarkYellow; // Ha a mező nem változik 2 körön belül, akkor narancssárga
                 }
 
                 Console.BackgroundColor = backgroundColor;
@@ -105,22 +107,22 @@ class GameOfLife
                 {
                     if (neighbors < 2 || neighbors > 3)
                     {
-                        newGrid[row, col] = false;
+                        newGrid[row, col] = false; // Az élő sejt meghal
                     }
                     else
                     {
-                        newGrid[row, col] = true;
+                        newGrid[row, col] = true; // Az élő sejt életben marad
                     }
                 }
                 else
                 {
                     if (neighbors == 3)
                     {
-                        newGrid[row, col] = true;
+                        newGrid[row, col] = true; // A halott sejt újjászületik
                     }
                     else
                     {
-                        newGrid[row, col] = false;
+                        newGrid[row, col] = false; // A halott sejt halott marad
                     }
                 }
             }
@@ -128,7 +130,7 @@ class GameOfLife
 
         if (generation > 1)
         {
-            Array.Copy(grid, prevGrid, grid.Length);
+            Array.Copy(grid, prevGrid, grid.Length); // Az előző generáció rácsának másolása
         }
     }
 
@@ -167,11 +169,11 @@ class GameOfLife
             {
                 if (grid1[row, col] != grid2[row, col])
                 {
-                    return false;
+                    return false; // Változás történt
                 }
             }
         }
-        return true;
+        return true; // Nincs változás
     }
 
     static void Night()
@@ -204,12 +206,13 @@ class GameOfLife
             System.Threading.Thread.Sleep(2);
         }
 
+        // Köszönjük a figyelmet!
         Console.SetCursorPosition(Console.WindowWidth / 2 - 10, Console.WindowHeight / 2);
         Console.ForegroundColor = ConsoleColor.White;
         Console.WriteLine("Köszönjük a figyelmet!");
         Console.ResetColor();
 
-        System.Threading.Thread.Sleep(2000);
+        System.Threading.Thread.Sleep(2000); // Várunk egy kicsit a felirat megjelenítésére
     }
 
 }
