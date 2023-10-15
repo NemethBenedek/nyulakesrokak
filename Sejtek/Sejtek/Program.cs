@@ -32,17 +32,23 @@ class GameOfLife
         bool[,] newGrid = new bool[rows, cols];
         bool[,] prevGrid = new bool[rows, cols]; 
 
-       
+        
 
         int generation = 0;
         int generationsWithoutChange = 0; 
 
-      
+        while (generationsWithoutChange < 1) 
+        {
+            Console.Clear();
+            DisplayGrid(grid, rows, cols, prevGrid);
+          
+            (grid, newGrid) = (newGrid, grid); 
+            generation++;
+            System.Threading.Thread.Sleep(550); 
+        }
 
-        
+     
     }
-
-    
 
     static void DisplayGrid(bool[,] grid, int rows, int cols, bool[,] prevGrid)
     {
@@ -66,5 +72,6 @@ class GameOfLife
     }
 
     
-
 }
+
+
