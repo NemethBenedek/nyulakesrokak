@@ -5,7 +5,7 @@ namespace GameOfLifeSimulation
     {
         static void Main()
         {
-            // Provide the dimensions of the grid (for example, 10 rows and 20 columns)
+            // A rács adatai I LOVE KARI
             int rows = 10;
             int cols = 10;
 
