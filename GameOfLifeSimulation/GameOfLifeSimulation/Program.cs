@@ -1,6 +1,6 @@
 ﻿
-using sokadikteszt;
-namespace sokadikteszt
+using GameOfLifeSimulation;
+namespace GameOfLifeSimulation
 {
     class Program
     {

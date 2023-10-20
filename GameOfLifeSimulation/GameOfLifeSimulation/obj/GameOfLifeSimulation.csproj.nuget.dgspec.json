@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proj\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj": {}
+    "C:\\Users\\Beni\\Desktop\\nyulakesrokak-main\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj": {}
   },
   "projects": {
-    "D:\\proj\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj": {
+    "C:\\Users\\Beni\\Desktop\\nyulakesrokak-main\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proj\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj",
+        "projectUniqueName": "C:\\Users\\Beni\\Desktop\\nyulakesrokak-main\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj",
         "projectName": "GameOfLifeSimulation",
-        "projectPath": "D:\\proj\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj",
+        "projectPath": "C:\\Users\\Beni\\Desktop\\nyulakesrokak-main\\GameOfLifeSimulation\\GameOfLifeSimulation\\GameOfLifeSimulation.csproj",
         "packagesPath": "C:\\Users\\Beni\\.nuget\\packages\\",
-        "outputPath": "D:\\proj\\GameOfLifeSimulation\\GameOfLifeSimulation\\obj\\",
+        "outputPath": "C:\\Users\\Beni\\Desktop\\nyulakesrokak-main\\GameOfLifeSimulation\\GameOfLifeSimulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
