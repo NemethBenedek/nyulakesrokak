@@ -1,0 +1,14 @@
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\bin\Debug\net7.0\GameOfLifeSimulation.exe
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\bin\Debug\net7.0\GameOfLifeSimulation.deps.json
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\bin\Debug\net7.0\GameOfLifeSimulation.runtimeconfig.json
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\bin\Debug\net7.0\GameOfLifeSimulation.dll
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\bin\Debug\net7.0\GameOfLifeSimulation.pdb
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.GeneratedMSBuildEditorConfig.editorconfig
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.AssemblyInfoInputs.cache
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.AssemblyInfo.cs
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.csproj.CoreCompileInputs.cache
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.dll
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\refint\GameOfLifeSimulation.dll
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.pdb
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\GameOfLifeSimulation.genruntimeconfig.cache
+D:\proj\GameOfLifeSimulation\GameOfLifeSimulation\obj\Debug\net7.0\ref\GameOfLifeSimulation.dll
