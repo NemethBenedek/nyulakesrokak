@@ -20,22 +20,22 @@ namespace GameOfLifeSimulation
                     {
                         if (neighbors < 2 || neighbors > 3)
                         {
-                            newGrid[row, col] = false;
+                            newGrid[row, col] = false; // Az élő sejt meghal
                         }
                         else
                         {
-                            newGrid[row, col] = true;
+                            newGrid[row, col] = true; // Az élő sejt életben marad
                         }
                     }
                     else
                     {
                         if (neighbors == 3)
                         {
-                            newGrid[row, col] = true;
+                            newGrid[row, col] = true; // A halott sejt újjászületik
                         }
                         else
                         {
-                            newGrid[row, col] = false;
+                            newGrid[row, col] = false; // A halott sejt halott marad
                         }
                     }
                 }
@@ -43,8 +43,14 @@ namespace GameOfLifeSimulation
 
             if (generation > 1)
             {
-                Array.Copy(grid, prevGrid, grid.Length);
+                Array.Copy(grid, prevGrid, grid.Length); // Az előző generáció rácsának másolása
             }
         }
+
+        private static int CountLivingNeighbors(bool[,] grid, int row, int col, int rows, int cols)
+        {
+            throw new NotImplementedException();
+        }
     }
+
 }

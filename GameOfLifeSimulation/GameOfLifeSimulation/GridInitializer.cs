@@ -15,7 +15,7 @@ namespace GameOfLifeSimulation
             {
                 for (int col = 0; col < cols; col++)
                 {
-                    grid[row, col] = rand.Next(2) == 0;
+                    grid[row, col] = rand.Next(2) == 0; // Véletlenszerűen élő vagy halott sejt
                 }
             }
         }
